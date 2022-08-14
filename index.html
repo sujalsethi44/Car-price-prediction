@@ -40,9 +40,18 @@
 
 
 
-        <br><br><h1>{{ prediction_text }}<h1>
+        <br><br><h3>{{ prediction_text }}</h3>
     </div>
 
+     <!-- Footer -->
+     <div class='footer'>
+        <div class="contact">
+            <a target="_blank" href="https://github.com/sujalsethi44/Car-price-prediction"><i class="fab fa-github fa-lg contact-icon"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/in/sujalsethi44/"><i class="fab fa-linkedin fa-lg contact-icon"></i></a>
+        </div> 
+        <p class='footer-description'> ❤️ SUJAL SETHI.</p>
+        <br><br>
+    </div>
 
 
 
@@ -152,6 +161,30 @@
             height: 25px;
             font-size: 20px;
             text-align: center;
+        }
+        /* Footer */
+        .footer{
+            font-size: 14px;
+	        padding: 20px;
+	        flex-shrink: 0;
+	        position: relative;
+	        background: linear-gradient(45deg, #ffffff, #ffffff, #f9f9f9, #eeeeee, #e0e4e1, #d7e1ec);
+	        background-size: 500% 500%;
+	        animation: change-gradient 10s ease-in-out infinite;
+        }
+        .contact-icon{
+	        color: #993c3c;
+	        padding: 17px;
+        }
+
+
+        .contact-icon:hover{
+	        color: #8c8c8c;
+        }
+
+        .footer-description{
+	        margin: 0;
+	        font-size: 24px;
         }
     </style>
 </body>
